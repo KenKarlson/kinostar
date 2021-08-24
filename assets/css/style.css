@@ -12,6 +12,15 @@ input, textarea{
   border:none;
   border: solid 1px #F2F2F2;
 }
+h1, h2, h3{
+  font: normal 170% 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color:white;
+}
+h2{
+  font-size: 140%;
+}
 .header{
   background-color: darkslateblue;
   height: 177px;
@@ -95,4 +104,7 @@ ul.menu{
   cursor: pointer;
   border: solid 1px #F2F2F2;
   border-radius: 3px;
+}
+.sidebar h2{
+  color:#136cb2;
 }
