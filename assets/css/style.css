@@ -27,7 +27,7 @@ h1, h2, h3{
   font: normal 170% 'century gothic', arial;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
-  color:white;
+  
 }
 h2{
   font-size: 140%;
@@ -44,6 +44,9 @@ ul li{
   margin: 0 0 6px 0;
   padding: 0 0 4px 5px;
   line-height: 1.5em;
+}
+hr{
+  border: solid 1px #f3f3f3
 }
 
 .header{
@@ -178,7 +181,31 @@ ul.menu{
   border: solid 5px #dad7d7;
   width: 22%;
 }
+.posts, .posts-content {
+  font-size: 0.8em;
 
+}
+.info-film-page{
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.info-film-page .label {
+  font-size: 1.2em;  
+}
+.info-film-page .value{
+  font-size: 1em;
+  color: forestgreen;
+  margin-right: 3%;
+}
+.descriptions-film{
+  margin-bottom: 15%;
+}
+.descriptions-film img{
+  float: left;
+  margin-right: 2%;
+  border-radius: 5px;
+  border: solid 5px #dad7d5;
+}
 
 
 .footer{
