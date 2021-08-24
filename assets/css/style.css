@@ -1,5 +1,12 @@
 body{
   font-family: "Roboto",  sans-serif;
+  font-size: 1.1em;
+  background-color:white;
+  color:#555;
+}
+p{
+  padding: 0 0 20px 0;
+  line-height: 1.5em;
 }
 
 input[type="text"], input[type="password"], input[type="search"]{
@@ -21,6 +28,20 @@ h1, h2, h3{
 h2{
   font-size: 140%;
 }
+a, a:hover{
+  outline: none;
+  text-decoration: underline;
+  color: #aeb002;
+}
+ul{
+  margin: 2px 0 22px ;
+
+}
+ul li{
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 5px;
+}
+
 .header{
   background-color: darkslateblue;
   height: 177px;
@@ -91,12 +112,19 @@ ul.menu{
 }
 .sidebar{
   float: right;
-  width: 222px;
+  width: 215px;
   padding: 5%;
   margin: 0 0 16px 0;
   border: solid 1px #F2F2F2;
   border-radius: 5px;
   background-color: #f9f9f9;
+}
+.sidebar-item{
+  margin: 0;
+  padding: 0;
+}
+.sidebar-link{
+  justify-content: space-between;
 }
 .btn{
   padding: 8px;
@@ -107,4 +135,20 @@ ul.menu{
 }
 .sidebar h2{
   color:#136cb2;
+}
+.lables-passreg-text{
+  font-size: 0.7em;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+.sidebar ul{
+  margin: 0;
+
+}
+.sidebar ul li{
+  list-style-type: none;
+  margin: 0 0 0 0;
+}
+.sidebar .rating-sidebar{
+  float: right;
 }
