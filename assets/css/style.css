@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family: "Roboto",  sans-serif;
   font-size: 1.1em;
@@ -35,11 +39,11 @@ a, a:hover{
 }
 ul{
   margin: 2px 0 22px ;
-
 }
 ul li{
   margin: 0 0 6px 0;
   padding: 0 0 4px 5px;
+  line-height: 1.5em;
 }
 
 .header{
@@ -50,12 +54,16 @@ ul li{
   margin-right: 0;
   min-width: 900px;
 }
+.main{
+  height: auto;
+}
 .main, .logo, .menubar, .site-content, .footer{
   margin-left: auto;
   margin-right: auto;
 }
 .logo{
   width: 880px;
+  height: auto;
   padding-bottom: 40px;
 }
 .logo h1, .logo h2{
@@ -151,4 +159,20 @@ ul.menu{
 }
 .sidebar .rating-sidebar{
   float: right;
+}
+.footer{
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 28px 0 5px 0;  
+  text-align: center;
+  background-color: darkslateblue;
+  color: #a8aa94;
+}
+.footer a{
+  color: #a8aa94;
+  text-decoration: none;
+}
+.footer a:hover{
+  color:white;
 }
