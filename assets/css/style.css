@@ -271,9 +271,33 @@ ul.menu{
   padding-bottom: 15px;
   color: grey;
 }
-
-
-
+.info-film{
+  margin-bottom: 5%;
+  background-color: #f9f9f9;
+  padding: 5%;
+  height: 270px;
+  font-size: 0.8em;
+}
+.info-film img{
+  float: left;
+  margin-right: 2%;
+  border: solid 5px #c3c3c3;
+  border-radius: 5px;
+  width: 25%;
+}
+.button{
+  background-color: #7268ad;
+  padding: 2%;
+  
+  border-radius: 5px;
+  float:right;
+  margin-top: 5%;
+  clear: both;
+  font-size: 0.8em;
+}
+.button a{
+  color:white;
+}
 
 .footer{
   width: 100%;
