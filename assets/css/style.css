@@ -315,3 +315,32 @@ ul.menu{
 .footer a:hover{
   color:white;
 }
+
+/* CSS Mobile*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px){
+  .header{
+    background-color: #257965;
+    min-width: 100%;
+    height: 20%;
+    text-align: center;
+    border-bottom: 5px solid #aeb002;
+  }
+  .logo{
+    width: 100%;
+  }
+  .site-content{
+    width: 100%;
+    text-align: center;
+  }
+  .menubar{
+    width: 100%;
+    height: 100%;
+  }
+  .sidebar{
+    display: none;
+  }
+
+}
+
